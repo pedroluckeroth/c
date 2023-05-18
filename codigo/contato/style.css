@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #FBE6EA;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #ffffff;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius:  16px;
+}
+
+section h2{
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #000000;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    background-color: #FBE6EA;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    background-color: #FBE6EA;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius:  16px;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #fa6969;
+    border: 2px solid #fa6969;
+    color: #000000;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: #fa6969;
+    color: #000000;
+    border-radius: 16px;
+}
+
+img{
+    display: block;
+    margin-top: 2rem;
+    width: 30%;
+}
+
+@media screen and (max-widht:768px){
+    section{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-widht:600px){
+    section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-widht:375px){
+    section{
+        width: 100%;
+    }
+}
